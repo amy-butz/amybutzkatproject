@@ -2,13 +2,69 @@ body  {
   margin: 0;
 }
 
+@media screen and (max-width: 922px) {
+  #cat-3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  #cat-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  ul {
+    display: none;
+  }
+}
+
+/* DEFAULT STYLING */
+
+header  {
+  margin: 0;
+  height: 80px;
+}
+
 .site-title {
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
   font-size: 1.5em;
   color: #323232;
   display: inline-block;
+  margin: 0;
   margin-left: 30px;
+  line-height: 80px;
+}
+
+ul  {
+  float: right;
+  margin: 0;
+  display: inline-block;
+  height: 100%;
+}
+
+.links {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  color: #323232;
+  margin: 0;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.none {
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.splash {
+  width: 100%;
+  margin: 0;
 }
 
 h2  {
@@ -28,17 +84,17 @@ h3  {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
-    }
+}
 
-  h4  {
-    font-family: 'PT Serif', serif;
-    font-size: 1em;
-    line-height: 2em;
-    color: #323232;
-    margin: 0;
-    display: inline-block;
-    vertical-align: top;
-    }
+h4  {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  margin: 0;
+  display: inline-block;
+  vertical-align: top;
+}
 
 p  {
   font-family:'PT Serif', serif;
@@ -49,15 +105,15 @@ p  {
 }
 
 .info {
-background-color: #ffffff;
-width: 240px;
-margin-left: 30px;
-margin-right: 30px;
-padding: 30px;
-display: inline-block;
-vertical-align: top;
-text-align: left;
-  }
+  background-color: #ffffff;
+  width: 240px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 30px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
 
 .orange  {
   font-family: 'PT Serif', serif;
@@ -72,101 +128,68 @@ text-align: left;
   text-transform: uppercase;
 }
 
-.splash {
-  width: 100%;
-  margin: 0;
-}
-
-nav  {
-  margin: 0;
-  height: 80px;
-}
-
-
-ul  {
-  float: right;
-}
-
-.links {
-  font-family: 'PT Sans', sans-serif;
-  font-size: .9em;
-  color: #323232;
-  margin: 0;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.none {
-  list-style: none;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 30px;
-}
-
 main {
   margin: 80px 0 80px 0;
-  max-width: 600px;
-  min-width: 400px;
+  width: 60%;
   margin-left:auto;
   margin-right: auto;
 }
 
 aside {
-margin: 80px 0 80px 0;
-text-align: center;
+  margin: 80px 0 80px 0;
+  text-align: center;
 }
 
 aside div  {
-background-color: #eeeeee;
-width: 30%;
-margin-left: 30px;
-margin-right: 30px;
-padding: 30px;
-display: inline-block;
-text-align: left;
-  }
+  background-color: #eeeeee;
+  width: 240px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 30px;
+  display: inline-block;
+  text-align: left;
+}
 
-  figure  {
-    margin: 0;
-    text-align: center;
-  }
+figure  {
+  margin: 0;
+  text-align: center;
+}
 
-  figure img  {
-    width: 250px;
-    margin: 0 27.25px 0 27.25px;
-    border-radius: 125px;
-  }
+figure img  {
+  width: 250px;
+  margin: 0 27.25px 0 27.25px;
+  border-radius: 125px;
+}
 
-  .contact {
-    background-color: #eeeeee;
-    margin-top: 80px;
-    padding: 80px 0 80px 0;
-    width: 100%;
-    text-align: center;
-  }
+.contact {
+  background-color: #eeeeee;
+  margin-top: 80px;
+  padding: 80px 0 80px 0;
+  width: 100%;
+  text-align: center;
+}
 
 
+.map {
+  margin: 0;
+  width: 100%;
+  display: block;
+}
 
-  .map {
-    margin: 0;
-    width: 100%;
-    display: block;
-  }
+footer {
+  background-color: #00897f;
+  height: 125px;
+  margin: 0;
+  width: 100%;
+}
 
-  footer {
-    background-color: #00897f;
-    height: 125px;
-    margin: 0;
-    width: 100%;
-  }
-
-  .foot  {
-      font-family: 'PT Sans Narrow', sans-serif;
-      font-weight: bold;
-      font-size: 1.25em;
-      color: #ffffff;
-      text-align: center;
-      line-height: 125px;
-      vertical-align: middle;
-      margin: 0;
-      }
+.foot  {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #ffffff;
+  text-align: center;
+  line-height: 125px;
+  vertical-align: middle;
+  margin: 0;
+}
